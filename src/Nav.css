@@ -1,0 +1,26 @@
+.menu {
+   display: inline-block;
+   width: 20%;
+   background-color:#FAEBD7;
+   margin-top: 4px;
+   height: 774%;
+}
+
+.drop-down  {
+    padding-top: 20px;
+    
+}
+
+.drop-down a {
+    text-decoration: none;
+}
+
+.drop-down ul li {
+    list-style: none;
+    
+}
+
+.drop-down ul li a {
+    text-decoration: none;
+    
+}

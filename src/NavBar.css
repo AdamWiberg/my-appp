@@ -1,22 +1,3 @@
-.nav {
-    float: right;
-    width: 25%;
-    text-align: right;
-    margin-top: -5%;
-    
-   
-   
-}
-
-.nav ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    
-}
-
-.nav  li {
-    display: inline;
-    margin-right: 8px;
-   
+.navbar div, a {
+    margin-bottom: 2px;
 }

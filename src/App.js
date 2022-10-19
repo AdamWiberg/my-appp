@@ -1,10 +1,10 @@
 import './App.css';
-import Header from './Header';
-import NavBar from './NavBar';
-import Content from './main';
+import Header from './components/Header/Header';
+import NavBar from './components/NavBar/NavBar';
+import Content from './components/Main/main';
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Dialogs from './Dialogs';
+import Dialogs from './components/Dialogs/Dialogs';
 
 const App = () => { 
   return (

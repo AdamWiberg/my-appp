@@ -6,7 +6,7 @@ import Content from './main';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Dialogs from './Dialogs';
 
-const App = () => {
+const App = () => { 
   return (
     <BrowserRouter>
    
@@ -19,7 +19,7 @@ const App = () => {
             <Route path='Dialogs' element={<Dialogs />} />
             </Routes>
 
-        </div>
+        </div> 
       </div>
       
     </BrowserRouter>

@@ -5,6 +5,9 @@ import './News.css';
 
 const News = () => {
     return (
+
+        // Блочная новость страницы
+
         <div>
             <div className='News-wrapper'>
                 <div className='News-block'>

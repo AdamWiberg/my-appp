@@ -1,0 +1,16 @@
+ img {
+    width: 30%;
+}
+
+input {
+    height: 40px;
+}
+
+.content {
+    grid-area: content;
+    background-color: rgb(34, 104, 100);
+}
+
+.item {
+    color: black
+}

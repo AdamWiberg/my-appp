@@ -1,19 +1,21 @@
 import React from "react";
-import './NavBar.css';
-
+import { NavLink } from "react-router-dom";
+import s from './NavBar.module.css';
+console.log(s)
 
 const NavBar = () => {
     return (
        
-            <nav className='navbar'>
-                <div>
-                    <a>Главная</a>
+            <nav className={s.navbar}>
+                <div className = {s.item}>
+                    Главная
                 </div>
-                <div>
-                    <a href='/Content'>Профиль</a>
+                {/* {({ isActive }) => (isActive ? 'active' : 'inactive')}   */}
+                <div className={`${s.item} ${s.active}`}>
+                    <NavLink to='/Content'>Профиль</NavLink>
                 </div>
-                <div>
-                    <a href='/Dialogs'>Сообщения</a>
+                <div className={s.active}>
+                    <NavLink to='/News' >Новости</NavLink>
                 </div>
             </nav>
     

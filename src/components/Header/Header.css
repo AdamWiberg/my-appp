@@ -2,3 +2,7 @@
     width: 3em;
 }
 
+.header {
+    grid-area: header;
+    background-color: darkgray;
+  }

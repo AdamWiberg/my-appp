@@ -1,6 +1,6 @@
 .News_wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 2fr;
     margin: 15px;
     column-gap: 30px;
     row-gap: 30px;
@@ -12,13 +12,12 @@
     height: 95%;
     background-color: rgb(127, 27, 208);
     border-radius: 5px;
+    
 }
 
-.News img {
+.News {
     margin-top: -10px;
     margin-left: -10px;
-   
-
 }
 
 .News_block img {
@@ -30,7 +29,8 @@
     background-size: cover;
     height: 20em;
     transition: transform 300ms ease-in-out;
-    
+   
+
 }
 
 img:hover {
@@ -60,10 +60,11 @@ img:hover {
 
 .button_wrap {
     display: block;
-    width: 100%;
+    width: 43%;
     text-align: center;
     bottom: 14px;
     left: 0;
+    margin-left: 17%;
 }
 
 .btn {
@@ -79,15 +80,16 @@ img:hover {
     bottom: 5px;
 }
 
-.btn:after, .btn:before {
+.btn:after,
+.btn:before {
     position: absolute;
-	height: 4px;
-	left: 50%;
-	background: #7FFFD4;
-	bottom: -6px;
-	content: "";
-	transition: all 280ms ease-in-out;
-	width: 0;
+    height: 4px;
+    left: 50%;
+    background: #7FFFD4;
+    bottom: -6px;
+    content: "";
+    transition: all 280ms ease-in-out;
+    width: 0;
 }
 
 .btn:active,
@@ -97,14 +99,15 @@ img:hover {
 }
 
 .btn:before {
-	top: -7px;
+    top: -7px;
 }
+
 .btn:hover:after,
 .btn:hover:before,
 .btn:active:after,
 .btn:active:before,
 .btn:focus:after,
 .btn:focus:before {
-	width: 100%;
-	left: 0;
+    width: 100%;
+    left: 0;
 }

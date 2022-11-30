@@ -15,8 +15,9 @@ const App = () => {
         <NavBar />
         <div className='app-wrapper-content'>
         <Routes>
-            <Route path='Content' element={<Content />} />
-            <Route path='News' element={<News />} />
+        {/* component vs render, прокидываем props через Route */}
+            <Route path='Content' render= { () => <Content />} />
+            <Route path='News' render= { () => <News />} />
             </Routes>
 
         </div> 

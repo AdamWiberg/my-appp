@@ -1,19 +1,19 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import s from './News.module.css';
+import css from './News.module.css';
 
 
 const NewsItem = (props) => {
     return (
-        <div className={s.button_wrap + ' ' + s.btn}>
-            <NavLink to={'/News/' + props.id}>{props.name} </NavLink>
+        <div className={css.button_wrap + ' ' + css.btn}>
+            <NavLink to={'/news/' + props.id}>{props.name} </NavLink>
         </div>
     )
 }
 
 const Info = (props) => {
     return (
-        <div className={s.info_text}>
+        <div className={css.info_text}>
             <a> {props.name}</a>
         </div>
     )
@@ -22,7 +22,7 @@ const Info = (props) => {
 
 const Title = (props) => {
     return (
-        <div className={s.info}>
+        <div className={css.info}>
             <a> {props.name} </a>
         </div>
     )
@@ -34,9 +34,9 @@ const News = () => {
         // Блочная новость страницы
 
         <div>
-            <div className={s.News_wrapper}>
-                <div className={s.News_block}>
-                    <div className={s.News}>
+            <div className={css.News_wrapper}>
+                <div className={css.News_block}>
+                    <div className={css.News}>
                         <img src='https://www.sostav.ru/app/public/images/news/2013/11/20/original/top.jpg'></img>
                     </div>
                     <Title name='Новости' />
@@ -53,9 +53,9 @@ const News = () => {
 
 
             </div>
-            <div className={s.News_wrapper}>
-                <div className={s.News_block}>
-                    <div className={s.News}>
+            <div className={css.News_wrapper}>
+                <div className={css.News_block}>
+                    <div className={css.News}>
                         <img src='https://img2.akspic.ru/previews/2/9/0/9/6/169092/169092-sipuha-neyasyt-ptica-klyuv-naturalnyj_material-500x.jpg'></img>
                     </div>
                     <Title name='Новости' />
@@ -67,9 +67,9 @@ const News = () => {
 
 
             </div>
-            <div className={s.News_wrapper}>
-                <div className={s.News_block}>
-                    <div className={s.News}>
+            <div className={css.News_wrapper}>
+                <div className={css.News_block}>
+                    <div className={css.News}>
                         <img src='https://rus-pic.ru/wp-content/uploads/2021/05/krasivye-kartinki-na-avu-40-foto-4ead6e3.jpg'></img>
                     </div>
                     <Title name='Новости' />

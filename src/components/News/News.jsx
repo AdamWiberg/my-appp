@@ -28,7 +28,10 @@ const Title = (props) => {
     )
 }
 
-const News = () => {
+const News = (props) => {
+
+
+
     return (
 
         // Блочная новость страницы
